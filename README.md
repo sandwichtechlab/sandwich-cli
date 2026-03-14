@@ -21,7 +21,7 @@ Universal CLI to initialize and manage AI coding skills across multiple AI-power
 ## Installation
 
 ```bash
-npm install -g sandwich-cli
+npm install -g sandwich-ai
 ```
 
 ## Quick Start

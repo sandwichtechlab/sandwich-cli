@@ -1,5 +1,5 @@
 {
-  "name": "sandwich-cli",
+  "name": "sandwich-ai",
   "version": "0.1.0",
   "description": "Universal CLI to init and manage AI coding skills across Claude Code, Gemini, Cursor, Antigravity and more",
   "author": "Witch <sandwich.techlab@gmail.com>",
