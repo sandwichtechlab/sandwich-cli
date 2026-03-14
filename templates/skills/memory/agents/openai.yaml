@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memory Assistant"
+  short_description: "Use sandwich memory CLI to store and retrieve knowledge"
+  default_prompt: "Use $memory to search existing knowledge first, then store reusable project knowledge via sandwich memory commands when needed."

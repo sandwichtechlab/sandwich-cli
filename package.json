@@ -1,0 +1,51 @@
+{
+  "name": "sandwich-cli",
+  "version": "0.1.0",
+  "description": "Universal CLI to init and manage AI coding skills across Claude Code, Gemini, Cursor, Antigravity and more",
+  "private": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "sandwich": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "imports": {
+    "#lib/*": "./dist/lib/*.js",
+    "#adapters/*": "./dist/adapters/*.js",
+    "#commands/*": "./dist/commands/*.js",
+    "#ui/*": "./dist/ui/*.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --clean --shims",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "cfonts": "^3.3.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.3.3",
+    "gray-matter": "^4.0.3",
+    "inquirer": "^12.3.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.1",
+    "tsup": "^8.5.1",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.0"
+  }
+}
