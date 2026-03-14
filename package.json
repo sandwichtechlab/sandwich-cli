@@ -2,6 +2,35 @@
   "name": "sandwich-cli",
   "version": "0.1.0",
   "description": "Universal CLI to init and manage AI coding skills across Claude Code, Gemini, Cursor, Antigravity and more",
+  "author": "Witch <sandwich.techlab@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "cli",
+    "claude",
+    "cursor",
+    "gemini",
+    "copilot",
+    "windsurf",
+    "skills",
+    "prompts",
+    "slash-commands",
+    "agentic",
+    "sdlc",
+    "adlc",
+    "scaffold"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandwichtechlab/sandwich-cli.git"
+  },
+  "homepage": "https://github.com/sandwichtechlab/sandwich-cli#readme",
+  "bugs": {
+    "url": "https://github.com/sandwichtechlab/sandwich-cli/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "private": false,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
